@@ -6,6 +6,6 @@ public class FeatureRunnerTest {
 
 	@Karate.Test
     Karate testSample() {
-        return Karate.run("classpath:Features/UserCreation.feature"); 
+        return Karate.run("classpath:Features"); 
     }
 }
