@@ -23,8 +23,9 @@ jobs:
         run: |
           mvn clean test
 
-      - name: Upload Karate Report
+      - name: Upload Full Karate Report
         uses: actions/upload-artifact@v4
         with:
           name: karate-report
-          path: target/karate-reports/karate-summary.html
+          path: target/karate-reports/
+
